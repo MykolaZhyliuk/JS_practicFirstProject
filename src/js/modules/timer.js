@@ -32,7 +32,6 @@ const timer = (id, deadline) => {
             seconds = timer.querySelector('#seconds'),
             timeInterval = setInterval(updateClock, 1000);
         
-        console.log(days, hours, timer);
         
         updateClock();
         
